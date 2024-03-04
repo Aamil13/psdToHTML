@@ -1,0 +1,378 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+a{
+    color: #707070;
+    text-decoration: none;
+}
+
+
+.HeaderDiv{
+    height: 40px;
+    background-color: #191919;
+    display: flex;
+    justify-content: center;
+}
+
+.HeaderparentDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+    width: 1170px;
+    /* border-right: 1px solid green; */
+}
+
+.HeaderSocialContainer{
+    
+    height: inherit;
+    display: flex;
+    align-items: center;
+     /* gap: 15px; */
+     gap: 14px;
+     margin-top: 3px;
+     font-size: 17px;
+     /* font-size: 16px; */
+}
+
+.HeaderRightside{
+    display: flex;
+    /* gap: 10px; */
+    color: #8c8c8c;
+    font-size: 12px;
+    /* font-size: 11px; */
+    margin-top: 2px;
+    
+    /* border: 1px solid red; */
+    
+}
+.HeaderRightside a{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+.HeaderRightside a:first-of-type{
+
+    margin-right: 11px;
+    /* padding-right: 12px;
+    border-right: 2px solid #545454; */
+}
+.headerRightDivider{
+    margin-left: 3px;
+    /* margin-right: 14.5px; */
+    margin-right: 9.5px;
+    height: 20px;
+    border-right: 2px solid #2d2d2d;
+   
+}
+
+
+
+.material-icons{
+    font-size: 18px;
+}
+
+
+.languageDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+/* ///////////////////////////////////////////// */
+
+/* Hero section  */
+
+.heroheroContainer{
+    position: relative;
+    
+}
+
+
+.heroImage{
+    width: 100%;
+    height: 110%;
+    /* object-fit: cover; */
+    position: absolute;
+    z-index: -9;
+}
+
+.overlayDiv{
+   
+    width: 100%;
+    height: 110%;
+    position: absolute;
+    z-index: -8;
+    background-color: rgba(0,0,0,0.8);
+}
+
+
+.heroCenterDiv{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heroNameh1Tag{
+    margin-top: 11.5px;
+}
+
+.heroName{
+    /* padding-top: 100px; */
+    padding-right: 4px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+}
+
+
+/* Nav List  */
+
+.navListContainer{
+    display: flex;
+    gap: 24.5px;
+    list-style-type: none;
+    padding-top: 26px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+
+    padding-left: 74px;
+}
+.navListContainer a{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.navListContainer li a{
+    color: white;
+}
+
+.navListContainer li:first-child{
+    position: relative;
+}
+
+.navListContainer li:first-child::after {
+    content: "";
+    width: 112%;
+    /* height: .2em; */
+    height: 3.2px;
+    
+    background: #ff4081;
+    
+    position: absolute;
+    /* bottom: -26px; */
+    top: 38px;
+    /* left: -12px; */
+    right: 12px;
+    
+  
+}
+
+.navListContainer li span{
+    padding-left: 5px;
+}
+
+
+
+
+.navIcons{
+    /* padding-left: 10px; */
+    padding-top: 23px;
+    /* width: 120px; */
+   margin-right: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.navIcons span{
+    font-size: 24px;
+}
+
+.heartDividerLine{
+    padding: 0px 10px 0px 11px;
+    border-left: 1px solid white; 
+    border-right: 1px solid white; 
+}
+
+
+
+/* hero Text  */
+.heroTextContiner{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    /* background: red; */
+    color: white;
+    margin-top: 231px;
+}
+
+.heroTextCenterDiv{
+    width: 1170px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.heroInspirationDiv{
+    text-align: center;
+    
+}
+
+.heroInspirationP{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #bdbdbd;
+    text-transform: uppercase;
+    /* padding-left: 16px; */
+    margin-left: 10px;
+}
+
+.heromillennialsPDiv{
+    display: flex;
+    justify-content: center;
+}
+.heromillennialsP{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    color: white;
+    max-width: 80%;
+    text-transform: uppercase;
+    text-align: center;
+    word-spacing: 2px;
+    margin-top: 13px;
+    margin-right: 28px;
+   
+}
+
+.heroButton{
+    margin-top: 29px;
+    margin-left: 2px;
+    padding: 12px 24px 12px 27px;
+    border-radius: 40px;
+    background: #303f9f;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    color: white;
+    word-spacing: 5px;
+}
+
+.heroButton span{
+    padding-right: 6px;
+}
+
+/* <!-- Hero badge, comment and likes --> */
+
+.heroBadgeCenterDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.heroBadgeImg{
+    /* background: red; */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.heroBadgeName{
+    font-weight: bold;
+    font-size:14px;
+    color: white;
+    margin-top: 17px;
+    margin-right: 6px;
+}
+
+.heroBadgeDate{
+    font-size: 12px;
+    color: #757575;
+    margin-top: 8.5px;
+    margin-right: 1px;
+    word-spacing: 3px;
+}
+
+.heroBadgeDate span{
+    margin-left: 8px;
+}
+
+
+.heroBadgeCL{
+    display: flex;
+    font-size: 12px;
+    color: #8d8d8d;
+    gap: 33px;
+    margin-top: 33px;
+    margin-right: 8px;
+}
+
+.heroBadgeCL p{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    word-spacing: 2px;
+}
+
+/* <!-- Categories and Blog  --> */
+.categoriesAndBlogDiv{
+    width: 100%;
+    background: red;
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.sortByDiv{
+    width: 100%;
+    height: 60px;
+    background: #ffffff;
+
+}
+
+.sordByCenterDiv{
+    width: 1170px;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: start;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 1px;
+}
+
+.categoriesAndBlogCenterDiv{
+    width: 1170px;
+    background: green;
+}
+
+
